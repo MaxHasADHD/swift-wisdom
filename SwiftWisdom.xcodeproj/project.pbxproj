@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0922A8531FAD0A78005AD966 /* UIView+SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A8521FAD0A78005AD966 /* UIView+SafeArea.swift */; };
-		0CED7D671CD6971400672913 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED7D661CD6971400672913 /* Double+Extensions.swift */; };
+		0CED7D671CD6971400672913 /* BinaryFloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED7D661CD6971400672913 /* BinaryFloatingPoint+Extensions.swift */; };
 		13425F701DB073F300F446BE /* Sequence+UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F631DB073F300F446BE /* Sequence+UtilitiesTests.swift */; };
 		13425F741DB073F300F446BE /* MathableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F691DB073F300F446BE /* MathableTests.swift */; };
 		13425F751DB073F300F446BE /* RawRepresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F6B1DB073F300F446BE /* RawRepresentableTests.swift */; };
@@ -17,7 +17,7 @@
 		13425F7C1DB0755B00F446BE /* NSMutableAttributedString+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F7B1DB0755B00F446BE /* NSMutableAttributedString+Format.swift */; };
 		13425F7E1DB0757000F446BE /* NSMutableAttributedString+FormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F7D1DB0757000F446BE /* NSMutableAttributedString+FormatTests.swift */; };
 		13425F811DB075A000F446BE /* Integer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F801DB075A000F446BE /* Integer+Extensions.swift */; };
-		13425F851DB075B300F446BE /* Double+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F821DB075B300F446BE /* Double+ExtensionsTests.swift */; };
+		13425F851DB075B300F446BE /* BinaryFloatingPoint+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F821DB075B300F446BE /* BinaryFloatingPoint+ExtensionsTests.swift */; };
 		13425F861DB075B300F446BE /* Integer+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F831DB075B300F446BE /* Integer+ExtensionsTests.swift */; };
 		13425F871DB075B300F446BE /* UnsignedInteger+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F841DB075B300F446BE /* UnsignedInteger+ExtensionsTests.swift */; };
 		13425F891DB075E000F446BE /* String+Indexing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13425F881DB075E000F446BE /* String+Indexing.swift */; };
@@ -131,7 +131,7 @@
 
 /* Begin PBXFileReference section */
 		0922A8521FAD0A78005AD966 /* UIView+SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SafeArea.swift"; sourceTree = "<group>"; };
-		0CED7D661CD6971400672913 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		0CED7D661CD6971400672913 /* BinaryFloatingPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
 		13425F631DB073F300F446BE /* Sequence+UtilitiesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+UtilitiesTests.swift"; sourceTree = "<group>"; };
 		13425F691DB073F300F446BE /* MathableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathableTests.swift; sourceTree = "<group>"; };
 		13425F6B1DB073F300F446BE /* RawRepresentableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawRepresentableTests.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		13425F7B1DB0755B00F446BE /* NSMutableAttributedString+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Format.swift"; sourceTree = "<group>"; };
 		13425F7D1DB0757000F446BE /* NSMutableAttributedString+FormatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+FormatTests.swift"; path = "NSAttributedString/NSMutableAttributedString+FormatTests.swift"; sourceTree = "<group>"; };
 		13425F801DB075A000F446BE /* Integer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
-		13425F821DB075B300F446BE /* Double+ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		13425F821DB075B300F446BE /* BinaryFloatingPoint+ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BinaryFloatingPoint+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		13425F831DB075B300F446BE /* Integer+ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		13425F841DB075B300F446BE /* UnsignedInteger+ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnsignedInteger+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		13425F881DB075E000F446BE /* String+Indexing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Indexing.swift"; sourceTree = "<group>"; };
@@ -306,7 +306,7 @@
 		13425F651DB073F300F446BE /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
-				13425F821DB075B300F446BE /* Double+ExtensionsTests.swift */,
+				13425F821DB075B300F446BE /* BinaryFloatingPoint+ExtensionsTests.swift */,
 				13425F831DB075B300F446BE /* Integer+ExtensionsTests.swift */,
 				13425F841DB075B300F446BE /* UnsignedInteger+ExtensionsTests.swift */,
 				13425F691DB073F300F446BE /* MathableTests.swift */,
@@ -737,7 +737,7 @@
 				13425F801DB075A000F446BE /* Integer+Extensions.swift */,
 				80D63D2C1C4F251E00C88D00 /* UnsignedInteger+Extensions.swift */,
 				1CE3D0671C6E61A500FB676C /* Mathable.swift */,
-				0CED7D661CD6971400672913 /* Double+Extensions.swift */,
+				0CED7D661CD6971400672913 /* BinaryFloatingPoint+Extensions.swift */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -809,7 +809,6 @@
 				80232B9C1BF2EE2E00818B6E /* Frameworks */,
 				80232B9D1BF2EE2E00818B6E /* Resources */,
 				BEDBF20DB05D76F60C858449 /* [CP] Embed Pods Frameworks */,
-				E3F5EA111B900D6479C8D173 /* [CP] Copy Pods Resources */,
 				3169F10A1F06850F00C917B2 /* SwiftLint */,
 			);
 			buildRules = (
@@ -830,7 +829,6 @@
 				80232BB01BF2EE2E00818B6E /* Frameworks */,
 				80232BB11BF2EE2E00818B6E /* Resources */,
 				FAA5EC81369AE73A0E00ED4B /* [CP] Embed Pods Frameworks */,
-				77882022D65A5916A7FFD999 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -938,21 +936,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		77882022D65A5916A7FFD999 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWisdomTests/Pods-SwiftWisdomTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BEDBF20DB05D76F60C858449 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -991,21 +974,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3F5EA111B900D6479C8D173 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWisdom/Pods-SwiftWisdom-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAA5EC81369AE73A0E00ED4B /* [CP] Embed Pods Frameworks */ = {
@@ -1091,7 +1059,7 @@
 				80232C061BF2F1BD00818B6E /* Set+Utilities.swift in Sources */,
 				8002059E1BF683E0005852C9 /* Result.swift in Sources */,
 				800205A21BF684C7005852C9 /* NSDate+Comparable.swift in Sources */,
-				0CED7D671CD6971400672913 /* Double+Extensions.swift in Sources */,
+				0CED7D671CD6971400672913 /* BinaryFloatingPoint+Extensions.swift in Sources */,
 				80D63D2F1C4F251E00C88D00 /* UnsignedInteger+Extensions.swift in Sources */,
 				80232C0F1BF2FB3800818B6E /* ViewController.swift in Sources */,
 				1CB92B7C1EC65DAE007EBD1E /* RepeatedTask.swift in Sources */,
@@ -1123,7 +1091,7 @@
 				1C16E3091D2809C5008A1001 /* ComparablesTests.swift in Sources */,
 				FF44B77B1CDCD19A00764AB0 /* Rx+ExtensionsTest.swift in Sources */,
 				13425F8F1DB0761500F446BE /* String+EmptyTests.swift in Sources */,
-				13425F851DB075B300F446BE /* Double+ExtensionsTests.swift in Sources */,
+				13425F851DB075B300F446BE /* BinaryFloatingPoint+ExtensionsTests.swift in Sources */,
 				80D63D221C4F22B800C88D00 /* BitMaskTests.swift in Sources */,
 				CDCDE25D1E67D785007B3784 /* TimeOfDayTests.swift in Sources */,
 				E7A6139A1E3FB521006382DA /* Rx+RepeatingTimeoutsTests.swift in Sources */,
