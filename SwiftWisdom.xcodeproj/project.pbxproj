@@ -42,6 +42,7 @@
 		1CE3D0681C6E61A500FB676C /* Mathable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3D0671C6E61A500FB676C /* Mathable.swift */; };
 		1CFEBD051E8047D60078108A /* DateFormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEBD041E8047D60078108A /* DateFormattingTests.swift */; };
 		1CFEBD081E8055AB0078108A /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFEBD071E8055AB0078108A /* UIButtonTests.swift */; };
+		211E2D94222049D20073A9C8 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E2D93222049D20073A9C8 /* Double+Extensions.swift */; };
 		311178591E16CACF00294C25 /* String+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311178581E16CACF00294C25 /* String+Attributed.swift */; };
 		314F3BF61E9EA7E7005753BE /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314F3BF51E9EA7E7005753BE /* VideoPlayerTests.swift */; };
 		314F3BF91E9EA92B005753BE /* testvideoone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 314F3BF71E9EA92B005753BE /* testvideoone.mp4 */; };
@@ -165,6 +166,7 @@
 		1CE3D0671C6E61A500FB676C /* Mathable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mathable.swift; sourceTree = "<group>"; };
 		1CFEBD041E8047D60078108A /* DateFormattingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormattingTests.swift; path = Date/DateFormattingTests.swift; sourceTree = "<group>"; };
 		1CFEBD071E8055AB0078108A /* UIButtonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonTests.swift; sourceTree = "<group>"; };
+		211E2D93222049D20073A9C8 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		311178581E16CACF00294C25 /* String+Attributed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Attributed.swift"; sourceTree = "<group>"; };
 		314F3BF51E9EA7E7005753BE /* VideoPlayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerTests.swift; sourceTree = "<group>"; };
 		314F3BF71E9EA92B005753BE /* testvideoone.mp4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testvideoone.mp4; sourceTree = "<group>"; };
@@ -737,6 +739,7 @@
 				13425F801DB075A000F446BE /* Integer+Extensions.swift */,
 				80D63D2C1C4F251E00C88D00 /* UnsignedInteger+Extensions.swift */,
 				1CE3D0671C6E61A500FB676C /* Mathable.swift */,
+				211E2D93222049D20073A9C8 /* Double+Extensions.swift */,
 				0CED7D661CD6971400672913 /* BinaryFloatingPoint+Extensions.swift */,
 			);
 			path = Numbers;
@@ -1021,6 +1024,7 @@
 				80232C0D1BF2FAA100818B6E /* AppDelegate.swift in Sources */,
 				80232BFF1BF2F1BD00818B6E /* Qu.swift in Sources */,
 				805807DF1C5BEDE400F9AFB1 /* UIImage+ColorImage.swift in Sources */,
+				211E2D94222049D20073A9C8 /* Double+Extensions.swift in Sources */,
 				31C0E33F1E15AA72009AB216 /* UIView+Extensions.swift in Sources */,
 				319CB0E51E14502F00BBD79B /* Date+Extensions.swift in Sources */,
 				802C4BBA1C1B6F7C00C69D80 /* Version.swift in Sources */,

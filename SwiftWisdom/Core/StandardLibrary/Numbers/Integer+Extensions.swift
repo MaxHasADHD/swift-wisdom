@@ -29,7 +29,7 @@ extension BinaryInteger {
         var magnitude: Int = Int(log10(value) / 3.0) // the order of magnitude of our value in thousands
 
         // divide value by 1000^magnitude to get hundreds value, then round to desired decimal places
-        var roundedHundredsValue = (value / pow(1000.0, Double(magnitude))).ip_round(toDecimalPlaces: decimalPlaces)
+        var roundedHundredsValue = (value / pow(1000.0, Double(magnitude))).ip_rounded(toDecimalPlaces: decimalPlaces)
 
         // if rounding brings our display value over 1000, divide by 1000 and then bump the magnitude
         if roundedHundredsValue >= 1000 {
